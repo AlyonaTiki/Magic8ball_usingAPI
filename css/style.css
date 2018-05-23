@@ -59,26 +59,26 @@ input[type="text"]{
     color: #333; 
     width: 100%; 
     box-sizing: border-box; 
-    letter-spacing: 1px;}
-
+    letter-spacing: 1px;
+}
 .effect-1{
     border: 0; 
     padding: 7px 0; 
     border-bottom: 1px solid #ccc;
 }
-
 .effect-1 ~ .focus-border{
     position: absolute; 
     bottom: 0; 
     left: 0; 
     width: 0; 
     height: 2px; 
-    background-color: #2dc63f; 
+    background-color: #0db9bf; 
     transition: 0.4s;}
 .effect-1:focus ~ .focus-border{
     width: 100%; 
     transition: 0.4s;
 }
+/*buttons*/
 button {
   background: #0ffa55;
   background-image: -webkit-linear-gradient(top, #0ffa55, #0b9c28);
@@ -98,7 +98,6 @@ button {
   margin-top: 10px;
     width: 80px;
 }
-
 button:hover {
   background: #3cfccc;
   background-image: -webkit-linear-gradient(top, #3cfccc, #0f9ea3);
@@ -108,7 +107,11 @@ button:hover {
   background-image: linear-gradient(to bottom, #3cfccc, #0f9ea3);
   text-decoration: none;
 }
-
+#retryBtn{
+    margin-bottom: 30px;
+    width: 120px;
+}
+/*footer*/
 .footer {
     text-align: center;
     background-color: rgb(256,256,256);
@@ -122,7 +125,9 @@ button:hover {
     font-size: 14px;
     color: #565656; 
 }
-#retryBtn{
-    margin-bottom: 30px;
-    width: 120px;
+/*text results*/
+#result2{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
