@@ -31,7 +31,6 @@ mBtn.click(function (event) {
     var url = "https://rickandmortyapi.com/api/character/" +
         mortyId;
     $.getJSON(url, function (json) {
-        //console.log(json);
         // display Morty's picture  
         result.append("<img src='" + json.image + "'>")
         if (mortyId == 2) { //add 123
