@@ -1,4 +1,5 @@
 # Magic8 ball with Rick and Morty 
+![alt text](https://github.com/AlyonaTiki/Magic8ball_usingAPI/blob/master/logo.png "Logo Rick and Morty")
 ### using public API from rickandmortyapi.com <br>
 **Date:** 2018 <br>
 **Author:** Alyona Karmazin <br>
